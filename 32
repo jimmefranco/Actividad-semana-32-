@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="deco.css">
+
+
+</style>
+</head>
+<body>
+
+<audio  id="a"  src="niño2.mp4" autoplay preload></audio>
+<div class="div"><img class="img" id="g" src="niño.gif"></div>
+
+
+<div>
+    <button onclick="document.getElementById('a').play();document.getElementById('g').play()" class="s">Play</button>
+
+    <button onclick="document.getElementById('a').pause();document.getElementById('g').pause()" class="p">Pausa</button>
+
